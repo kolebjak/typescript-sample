@@ -1,0 +1,2 @@
+export type APP_MOUNTED = 'APP_MOUNTED';
+export const APP_MOUNTED: APP_MOUNTED = 'APP_MOUNTED';

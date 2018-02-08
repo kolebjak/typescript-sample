@@ -1,0 +1,47 @@
+{
+  "name": "sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react-motion": "0.0.24",
+    "babel-polyfill": "6.26.0",
+    "classnames": "2.2.5",
+    "history": "4.7.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-inlinesvg": "0.7.5",
+    "react-metaforms": "1.0.9",
+    "react-motion": "0.5.2",
+    "react-paper-ripple": "0.3.0",
+    "react-redux": "5.0.6",
+    "react-router-dom": "4.2.2",
+    "react-router-redux": "5.0.0-alpha.9",
+    "react-tooltip": "3.4.0",
+    "redux": "3.7.2",
+    "redux-saga": "0.16.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "2.2.3",
+    "@types/jest": "22.1.1",
+    "@types/node": "9.4.0",
+    "@types/react": "16.0.35",
+    "@types/react-dom": "16.0.3",
+    "@types/react-redux": "5.0.14",
+    "@types/react-router-dom": "4.2.3",
+    "@types/react-router-redux": "5.0.11",
+    "@types/react-tooltip": "3.3.3",
+    "less": "2.7.3",
+    "less-watch-compiler": "1.10.2",
+    "npm-run-all": "4.1.2",
+    "react-scripts-ts": "2.12.0"
+  },
+  "scripts": {
+    "build-css": "lessc src/index.less src/index.css",
+    "watch-css": "less-watch-compiler src src --main-file index.less",
+    "start-js": "react-scripts-ts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
