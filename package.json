@@ -1,5 +1,5 @@
 {
-  "name": "typescript-sample",
+  "name": "ts-project-sample",
   "version": "1.0.0",
   "dependencies": {
     "@types/react-motion": "0.0.24",
