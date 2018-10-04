@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import '../../index.css';
 import { Routes } from '../routes';
+import '../../index.css';
 
 type State = {
   open: boolean;
