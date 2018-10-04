@@ -20,4 +20,3 @@ export default (state = initialState, action: Action) => {
 export const selectVariable = (state: State) => {
   return state.myReducer.variable;
 };
-
