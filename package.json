@@ -1,5 +1,6 @@
 {
   "name": "ts-project-sample",
+  "keywords": [ "typescript", "react", "redux", "redux-saga", "react-router-dom"],
   "version": "1.0.0",
   "dependencies": {
     "classnames": "2.2.6",
