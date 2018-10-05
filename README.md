@@ -5,4 +5,4 @@ Sample project with:
 * Router
 
 ## Usage
-Before using, remove myActions.ts, myConstants.ts, mySaga.ts, myReducer.ts, and use your own files. This files are just for demo purposes.  
+Before using, remove sampleModule folder and use your own files. This module is just for demo purposes.  
