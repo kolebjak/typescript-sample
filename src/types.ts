@@ -1,7 +1,7 @@
-import { RouterState } from 'react-router-redux';
-import { MyReducer } from './modules/myReducer';
+import { RouterState } from 'react-router-redux'
+import { SampleModuleReducer } from './modules/sampleModule/reducer'
 
 export type State = {
   routerReducer: RouterState,
-  myReducer: MyReducer,
-};
+  sampleModuleReducer: SampleModuleReducer,
+}
